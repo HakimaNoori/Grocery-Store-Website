@@ -1,8 +1,7 @@
-# React + Vite
+# Grocery Store Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- The Grocery Store Website is a modern, responsive platform for convenient online grocery shopping. It features easy navigation, allowing users to browse through various product categories effortlessly. High-quality images and detailed descriptions provide a clear understanding of each item. Customers can easily add products to their cart and proceed to a streamlined checkout. The stylish design and user-friendly interface enhance the overall shopping experience.
 
-Currently, two official plugins are available:
+# Screen Record
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[screen-capture (9).webm](https://github.com/user-attachments/assets/10575568-f0da-451b-9ebd-cced7f485b48)
