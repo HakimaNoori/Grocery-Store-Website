@@ -16,10 +16,17 @@
     }
 
     .primary-btn{
-        @apply border border-primary px-4 py-2 rounded-lg;
+        @apply bg-primary w-full text-white px-4 py-2 rounded-md hover:bg-secondary duration-300;
+    }
+
+    .secondart-btn{
+        @apply border border-white px-4 py-2 rounded-lg;
     }
 
     .large-text{
         @apply text-center text-[80px] sm:text-[120px] md:text-[150px] xl:text-[180px] text-white uppercase font-bold absolute bottom-0 w-full z-0 text-shadow
+    }
+    .input-style{
+        @apply px-4 py-2 border-[1px] border-gray-400 rounded-md
     }
 }

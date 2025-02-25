@@ -12,6 +12,7 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "gh-pages": "^6.3.0",
     "icons": "^1.0.0",
     "react": "^19.0.0",

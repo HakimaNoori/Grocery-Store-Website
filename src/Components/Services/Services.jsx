@@ -34,18 +34,23 @@ const Services = () => {
     <div className="container my-16 space-y-4">
       {/* header section */}
       <div className="text-center  max-w-lg mx-auto space-y-2">
-        <h1 className="text-3xl font-bold text-dark">
+        <h1 data-aos="fade-up" className="text-3xl font-bold text-dark">
           Fresh and <span>Tasty Fruits</span>{" "}
         </h1>
-        <p className="text-sm">
+        <p data-aos="fade-up" data-aos-delay="300" className="text-sm opacity-50">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
           necessitatibus cum repellendus unde mollitia, fugit dicta animi
           commodi? Accusamus, quisquam.
         </p>
       </div>
       <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
-        {ServicesData.map(({id, image, title, description, aosDelay}) => (
-          <div key={id} data-aos="fade-up" data-aos-delay={aosDelay} className="p-4 text-center space-y-6">
+        {ServicesData.map(({ id, image, title, description, aosDelay }) => (
+          <div
+            key={id}
+            data-aos="fade-up"
+            data-aos-delay={aosDelay}
+            className="p-4 text-center space-y-6"
+          >
             <img
               src={image}
               alt=""
