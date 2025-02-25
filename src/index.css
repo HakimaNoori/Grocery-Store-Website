@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+    .text-shadow{
+        text-shadow: 2px 2px 2px #1128015b;
+    }
+
+    .img-shadow{
+       filter: drop-shadow(40px 50px 25px #300000eb);
+    }
+   .img-shadow2{
+       filter: drop-shadow(10px 30px 15px #3030307a)
+    }
+
+    .primary-btn{
+        @apply border border-primary px-4 py-2 rounded-lg;
+    }
+
+    .large-text{
+        @apply text-center text-[80px] sm:text-[120px] md:text-[150px] xl:text-[180px] text-white uppercase font-bold absolute bottom-0 w-full z-0 text-shadow
+    }
+}
